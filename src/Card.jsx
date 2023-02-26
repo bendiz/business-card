@@ -7,7 +7,7 @@ import Footer from './components/Info/Footer'
 function Card() {
     const name = 'Benedicte Roksvåg'
     const role = 'IT Student'
-    const website = 'https://www.bendiz.no'
+    const website = 'https://www.benedicteroksvag.netlify.app'
 
     return (
         <div className="Card container-fluid">

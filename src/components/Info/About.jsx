@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from 'react'
 import './Info.css'
-import Button from '/Users/bendiz/business-card/src/components/Buttons/Button'
+import Button from '../Buttons/Button'
 
 function About({ name, role, website }) {
     const [cleanURL, setCleanURL] = useState('')
