@@ -1,6 +1,5 @@
 .ProfilePic {
-    background: url('src/components/ProfilePic/img/ProfilePic.png') top 25% left /
-        cover;
+    background: url('./img/ProfilePic.png') top 25% left / cover;
     border-radius: 10px 10px 0px 0px;
     width: 317px;
     min-height: 317px;
