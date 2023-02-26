@@ -1,0 +1,33 @@
+.Footer {
+    background: #161619;
+    width: 317px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+.Footer .icons {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    gap: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.Footer .icons > FontAwesomeIcon {
+    width: 25px;
+}
+
+.Footer a {
+    font-size: 2.5rem;
+    color: #918e9b;
+}
+
+@media screen and (max-width: 320px) {
+    .Footer {
+        width: 100%;
+    }
+}

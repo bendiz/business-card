@@ -1,0 +1,23 @@
+.Button.btn {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    width: 34%;
+    padding: 0.9rem, 1.3rem, 0.9rem, 1.1rem;
+}
+
+.Button.btn-primary {
+    color: #fff;
+}
+
+.Button .email-link {
+    text-decoration: none;
+    color: #23252c;
+}
+
+.Button .linkedin-link {
+    color: #fff;
+    text-decoration: none;
+}

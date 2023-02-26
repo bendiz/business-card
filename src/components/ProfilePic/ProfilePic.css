@@ -1,0 +1,14 @@
+.ProfilePic {
+    background: url('src/components/ProfilePic/img/ProfilePic.png') top 25% left /
+        cover;
+    border-radius: 10px 10px 0px 0px;
+    width: 317px;
+    min-height: 317px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 320px) {
+    .ProfilePic {
+        width: 100%;
+    }
+}

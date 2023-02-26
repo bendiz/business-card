@@ -1,0 +1,66 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    width: 317px;
+    background: #1a1b21;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.About .name,
+.role {
+    margin: 0;
+}
+
+.About .name {
+    margin: 2rem 0 0;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.About .role {
+    color: #e7cc7c;
+    font-size: 1.3rem;
+}
+
+.About .website-url {
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-top: 0.9rem;
+}
+
+.About .contact-me {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.7rem;
+}
+
+.About .about-me-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: left;
+    width: 75%;
+    margin: 3.3rem auto 0;
+}
+
+.About .about-me-text > h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.About .about-me-text > p {
+    font-size: 1rem;
+    color: #dcdcdc;
+    margin-bottom: 2.7rem;
+}
+
+@media screen and (max-width: 320px) {
+    .About {
+        width: 100%;
+    }
+}
