@@ -30,17 +30,16 @@ function About({ name, role, website }) {
             <div className="about-me-text">
                 <h2 className="about-heading">About</h2>
                 <p>
-                    I'm Benedicte from Norway. A first-year IT student and a
-                    junior frontend developer currently learning React and doing
-                    100 days of code for the second time. I want to learn and
-                    grow to become a proficient developer.
+                    From Norway. First-year IT student and a junior frontend
+                    developer currently learning React and doing 100 days of
+                    code for the second time. I am eager to learn and wish to
+                    become a proficient developer.
                 </p>
                 <h2 className="interests-heading">Interests</h2>
                 <p>
                     My interests include self-development, programming,
                     problem-solving, gaming, and health/fitness. I live with my
                     boyfriend, our three-year-old daughter, and our cat and dog.
-                    I spend most of my evenings learning something new.
                 </p>
             </div>
         </div>
